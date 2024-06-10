@@ -1,9 +1,9 @@
 class User:
-        def __init__(user, name, email = None, drivers_licence = None, number = None):
-            user.name = name
-            user.email = email
-            user.drivers_license = drivers_licence
-            user.number = number 
+        def __init__(self, name, email = None, drivers_licence = None, number = None):
+            self.name = name
+            self.email = email
+            self.drivers_license = drivers_licence
+            self.number = number 
         
 
 
